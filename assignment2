@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <h1>Our Menu</h1>
+ 
+ <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-1">
+        <div class="Chicken">Chicken</div>
+         <div class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita rem aliquid, sapiente ullam nostrum mollitia perspiciatis aspernatur commodi blanditiis,
+            iure magnam ipsam quasi. Illo voluptatem consectetur dolorem quisquam cum? Non?</div>
+      </div>
+    
+      <div class="col-lg-2">
+        <div class="Beef">Beef</div>
+                 <div class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita rem aliquid, sapiente ullam nostrum mollitia perspiciatis aspernatur commodi blanditiis,
+                    iure magnam ipsam quasi. Illo voluptatem consectetur dolorem quisquam cum? Non</div>
+        </div>   
+      <div class="col-lg-3">
+        <div class="Sushi">Sushi</div>
+                 <div class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita rem aliquid, sapiente ullam nostrum mollitia perspiciatis aspernatur commodi blanditiis,
+                    iure magnam ipsam quasi. Illo voluptatem consectetur dolorem quisquam cum? Non</div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-1">
+         <div class="Chicken">Chicken</div>
+         <div class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita rem aliquid, sapiente ullam nostrum mollitia perspiciatis aspernatur commodi blanditiis,
+            iure magnam ipsam quasi. Illo voluptatem consectetur dolorem quisquam cum? Non?</div>
+        </div>
+      </div>    
+      <div class="col-md-2">
+         <div class="Beef">Beef</div>
+         <div class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita rem aliquid, sapiente ullam nostrum mollitia perspiciatis aspernatur commodi blanditiis,
+           iure magnam ipsam quasi. Illo voluptatem consectetur dolorem quisquam cum? Non</div>
+      </div>  
+      <div class="col-md-3">
+        <div class="Sushi">Sushi</div>
+                 <div class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita rem aliquid, sapiente ullam nostrum mollitia perspiciatis aspernatur commodi blanditiis,
+                    iure magnam ipsam quasi. Illo voluptatem consectetur dolorem quisquam cum? Non</div></div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-1">
+        <div class="Chicken">Chicken</div>
+              <div class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita rem aliquid, sapiente ullam nostrum mollitia perspiciatis aspernatur commodi blanditiis,
+                  iure magnam ipsam quasi. Illo voluptatem consectetur dolorem quisquam cum? Non?</div>
+            </div>
+        </div>    
+      <div class="col-sm-2">
+        <div class="Beef">Beef</div>
+                 <div class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita rem aliquid, sapiente ullam nostrum mollitia perspiciatis aspernatur commodi blanditiis,
+                    iure magnam ipsam quasi. Illo voluptatem consectetur dolorem quisquam cum? Non</div>
+        </div>
+      <div class="col-sm-3">
+        <div class="Sushi">Sushi</div>
+                 <div class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita rem aliquid, sapiente ullam nostrum mollitia perspiciatis aspernatur commodi blanditiis,
+                    iure magnam ipsam quasi. Illo voluptatem consectetur dolorem quisquam cum? Non</div>
+    </div>
+  </div>
+
+ 
+   </div>                     
+ </div>
+</body>
+</html>
+
+.container-fluid {display: flex;}
+/*Large devices*/
+.row { width: 100%;}
+@media (min-width: 992px) { {
+ .col-lg-1 , .col-lg-2 , .col-lg-3 }       
+.col-lg-1 {width: 33%;}
+.col-lg-2 {width: 66%;}
+.col-lg-3 {width: 99%;} }
+/*Medium devices*/
+.row { width: 100%;}
+@media ( min-width: 768px) and (max-width: 991px) {
+  { .col-md-1 , .col-md-2 , .col-md-3 } 
+.col-md-1 {width: 50%;}
+.col-md-2 {width: 50%;}
+.col-md-3 {width: 100%;} } 
+
+/*Small devices*/
+.row { width: 100%;}
+@media  (max-width: 767px) { 
+ { .col-sm-1 , .col-sm-2 , .col-sm-3 } 
+.col-sm-1 {width: 100%;}
+.col-sm-2 {width: 100%;}
+.col-sm-3 {width: 100%;} }
+
+h1 {font-family: 'Courier New', Courier, monospace;
+font-size: large;
+text-align: center;
+padding-top: 20px;
+padding-bottom: 35px;
+font-weight: 800;}
+.Chicken {background-color: rgb(240, 156, 170);
+font-weight: 800;
+border-style: solid;
+border-width:2px;}
+.Beef {background-color: rgb(233, 97, 97);
+font-weight: 800;
+color: white;
+border-style: solid;
+border-color: black;
+border-width:2px;}
+.Sushi {background-color: rgb(255, 255, 147);
+font-weight: 800;
+border-style: solid;
+border-width:2px;}
+.col-lg-1 {background-color: gray;
+    border-style: solid;}
+.col-lg-2 {background-color: gray;
+        border-style: solid;}
+.col-lg-3 {background-color: gray;
+    border-style: solid;}
+.col-md-1 {background-color: gray;
+        border-style: solid;}
+.col-md-2 {background-color: gray;
+            border-style: solid;}
+.col-md-3 {background-color: gray;
+        border-style: solid;}
+.col-sm-1 {background-color: gray;
+            border-style: solid;}
+.col-sm-2 {background-color: gray;
+                border-style: solid;}
+.col-sm-3 {background-color: gray;
+            border-style: solid;}
